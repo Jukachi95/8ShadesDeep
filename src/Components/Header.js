@@ -13,10 +13,9 @@ return(
                 <div className = "ui container">
                     <div className = "ui large secondary inverted pointing menu">
                         <a className = "toc item">8SHADESDEEP</a>
-                        <li> <Link to = "/">Home</Link>  </li>
-                        <ul>
-                        <li><Link to ="/Catalog"> Catalog </Link></li>  
-                         </ul>
+                        <li className = "item"> <Link to = "/">Home</Link>  </li>
+                        <li className = "item"><Link to ="/Catalog"> Catalog </Link></li>  
+                        <li className = "item"> <Link to = "/"> About Us</Link> </li>
                     </div>
                 </div>
 
