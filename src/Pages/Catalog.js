@@ -1,11 +1,11 @@
 import React from 'react'
+import '../Components/Showcase.css'
 
 
 const Catalog = () =>{
     return(
         <div>
-            <h1>Welcome to Our Caalog</h1>
-            <h2>hi</h2>
+            <h1 style = {{color: 'black'}}>Welcome to Our Catalog</h1>
         </div>
     )
 }
