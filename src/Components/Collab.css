@@ -1,0 +1,24 @@
+.collab__container{
+    display: flex;
+    height: 300px;
+    width: 900px;
+    /* background-color: black; */
+    margin: 0 auto;
+    
+    
+}
+
+.collab__container img{
+   max-width: 100%;
+   max-height: 100%;
+   flex: 1;
+}
+
+.collab__container h1{
+    flex: 2;
+ }
+ 
+
+.collab__container__reverse{
+    display: flex
+}

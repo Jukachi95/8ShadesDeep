@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Collab.css'
 
 const CollabContainer = (props) => {
 
