@@ -2,6 +2,7 @@ import React from 'react'
 import { shape } from 'prop-types';
 import Showcase from './Showcase';
 import Catalog from '../Pages/Catalog'
+import About from '../Pages/About'
 import { Link} from 'react-router-dom'
 
 const HeaderMain = () => {
@@ -15,7 +16,7 @@ return(
                         <a className = "toc item">8SHADESDEEP</a>
                         <li className = "item"> <Link to = "/">Home</Link>  </li>
                         <li className = "item"><Link to ="/Catalog"> Catalog </Link></li>  
-                        <li className = "item"> <Link to = "/"> About Us</Link> </li>
+                        <li className = "item"> <Link to = "/About"> About Us</Link> </li>
                     </div>
                 </div>
 
