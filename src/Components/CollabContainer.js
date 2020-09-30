@@ -4,7 +4,7 @@ import './Collab.css'
 const CollabContainer = (props) => {
 
     return(
-        <div className = "collab__container">
+        <div className = {props.className}>
             <h1>{props.title}</h1>
             <img src = {props.image}/>
         </div>
