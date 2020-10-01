@@ -10,7 +10,7 @@ const Catalog = () =>{
             <CollabContainer title = {'We Are Cow'} image = {require('../img/WeAreCow.jpg')} className = {'collab__container'}/>
 
             
-            <CollabContainer title = {'The Joint'} image= {require('../img/TheJoint.jpg')} className = {'collab__container__reverse'}/>
+            <CollabContainer title = {'The JOINT'} image= {require('../img/TheJoint.jpg')} className = {'collab__container__reverse'}/>
         </div>
     )
 }

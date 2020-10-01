@@ -41,9 +41,14 @@
     font-family: 'Crimson Text';
 }
 
-.collab__container h1,
-.collab__container__reverse h1{
+.collab__container .body__left,
+.collab__container__reverse .body__left{
     flex: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
  }
  
 
+ 
+ 
