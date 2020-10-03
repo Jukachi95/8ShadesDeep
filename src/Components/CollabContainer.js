@@ -5,7 +5,6 @@ const CollabContainer = (props) => {
 
     return(
        <div>
-         <h1 className = "catalog__title" > Our Collaborations </h1>
         <div className = {props.className}>
             <div className = "body__left">
                 <h1>{props.title}</h1> 

@@ -7,6 +7,7 @@ import '../Components/Collab.css'
 const Catalog = () =>{
     return(
         <div>
+            <h1 className = "catalog__title" style = {{marginTop: '50px'}}> Our Collaborations </h1>
             <CollabContainer title = {'We Are Cow'} 
             image = {require('../img/WeAreCow.jpg')} 
             className = {'collab__container'}
