@@ -4,28 +4,31 @@ import './Collab.css'
 const CollabContainer = (props) => {
 
     return(
+       <div>
+         <h1 className = "catalog__title" > Our Collaborations </h1>
         <div className = {props.className}>
             <div className = "body__left">
                 <h1>{props.title}</h1> 
                 {/* <h3> props.compDescription */}
-                <h3>Exotic Candy & Snacks Store</h3>
+                <h3>{props.compDescription}</h3>
                 {/* <p>props.firstAddress </p> */}
-                <p>Unit 6 Premier House </p>
+                <p>{props.firstAddress}</p>
                 {/* props.secondAddress */}
-                <p>Rolfe Street</p>
+                <p>{props.secondAddress}</p>
                 {/* <h3>props.openingTimesTitle */}
-                <h3>Opening Times:</h3>
+                <h3>{props.openingTimesTitle}</h3>
                 {/* props.openingTime */}
-                <p>12:00 - 20:00</p>
+                <p>{props.openingTime}</p>
                 {/* props.contactTitle */}
-                <h3>Contact Number:</h3>
+                <h3>{props.contactTitle}</h3>
                 {/* props.contactNumber */}
-                <p>0121 448 2084</p>
+                <p>{props.contactNumber}</p>
                 {/* Telephone Icon */}
             </div>
 
             <img src = {props.image}/>
         </div>
+        </div>  
     )
 
 }
