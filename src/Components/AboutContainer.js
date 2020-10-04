@@ -12,7 +12,8 @@ const AboutContainer = () => {
         <div className = "about__photo">
         <img src = {require('../img/sledge_profile.jpg')}></img>
         <h4>Sledge Tshibangu</h4>
-        <p>Founder</p>
+        <h5>Founder</h5>
+        <p>Director, Advertiser, Photographer, Music Producer</p>
         </div>
 
     </div>
