@@ -1,11 +1,11 @@
 import React from 'react'
 import '../Components/Showcase.css'
-
+import AboutContainer from '../Components/AboutContainer'
 
 const About = () =>{
     return(
         <div>
-            <h1 style = {{color: 'black'}}>About 8ShadesDeep</h1>
+            <AboutContainer/>
         </div>
     )
 }

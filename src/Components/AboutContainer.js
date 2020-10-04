@@ -4,7 +4,15 @@ const AboutContainer = () => {
 
     return(
      <div>
-        <h1></h1>
+
+         <div className = "about__title">
+        <h1 style = {{color: 'black', marginTop: "50px"}}>About 8ShadesDeep</h1>
+        </div>
+
+        <div className = "about__photo">
+        <img src = {require('../img/sledge_profile.jpg')}></img>
+        </div>
+        
     </div>
 
     )
