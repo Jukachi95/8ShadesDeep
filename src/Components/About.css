@@ -15,3 +15,6 @@
     flex-direction: column; 
 }
 
+.about__main__container .about__photo h5{
+    margin-top: 0px;
+}

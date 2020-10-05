@@ -17,6 +17,9 @@ const AboutContainer = () => {
                     <p>Director, Advertiser, Photographer, Music Producer</p>
                 </div>
         </div> 
+
+        
+
     </div>
 
     )
