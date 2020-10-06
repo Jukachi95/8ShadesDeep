@@ -9,14 +9,29 @@ return (
             <div className = "testimonial__card">
                     <div>
                         <img src =  {require('../img/model1.jpg')}></img>
+                        {/* <figcaption>
+                            <blockquote>
+                                <p> Excellent Services </p>
+                            </blockquote>
+                        </figcaption> */}
                     </div>
 
                     <div>
                         <img src = {require('../img/model1.jpg')}></img>
+                        {/* <figcaption>
+                            <blockquote>
+                                <p> Excellent Services </p>
+                            </blockquote>
+                        </figcaption> */}
                     </div>
 
                     <div>
                         <img src = {require('../img/model1.jpg')}></img>
+                        {/* <figcaption>
+                            <blockquote>
+                                <p> Excellent Services </p>
+                            </blockquote>
+                        </figcaption> */}
                     </div> 
                
             </div>
