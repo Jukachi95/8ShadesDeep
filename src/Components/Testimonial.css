@@ -1,5 +1,5 @@
 .testimonial__container{
-    width: 1000px;
+    /* width: 1000px; */
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -9,22 +9,26 @@
 
 .testimonial__card{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     /* background-color: blue; */
     margin: 0 auto;
-    width: 900px;
+    max-width: 900px;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .testimonial__card div{
     width: 245px;
     height: 305px;
+    display: flex;
+    align-items: center;
 }
 
 .testimonial__card img{
     width: 240px;
     height: 300px;
+    border-radius: 100px;
 }
 
 
