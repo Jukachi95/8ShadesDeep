@@ -8,8 +8,13 @@ return (
         <div className = "testimonial__container">
             <div className = "testimonial__card">
                     <div>
-                        <span data-image-width="500" data-image-height = "500"></span>
-                        <p> adivnms vnsfvndbndfbndfsv  vsvnsnv </p> 
+                        <span data-image-width="500" data-image-height = "500" className = "span__1"></span>
+
+                           <div className = "inner__text">
+                                <p> Great service from the collective </p> 
+                                <h5>Adele</h5>
+                                <h6>Dancer, Model</h6>
+                            </div>
                         {/* <img src =  {require('../img/model1.jpg')}></img> */}
                         {/* <figcaption>
                             <blockquote>
@@ -19,23 +24,24 @@ return (
                     </div>
 
                     <div>
-                    <span data-image-width="500" data-image-height = "500"></span>
-                    <p> adivnms vnsfvndbndfbndfsv  vsvnsnv </p> 
+                     <span data-image-width="500" data-image-height = "500" className = "span__2"></span>
+                            <div className = "inner__text">
+                            {/* Blockquote before 'p' */}
+                                <p> Quality Photos</p> 
+                                <h5>Dani</h5>
+                                <h6>Influencer, Model</h6>
+                            </div>
                         {/* <img src = {require('../img/model1.jpg')}></img> */}
-                        {/* <figcaption>
-                            <blockquote>
-                                <p> Excellent Services </p>
-                            </blockquote>
-                        </figcaption> */}
+                        
                     </div>
 
                     <div>
-                    <span data-image-width="500" data-image-height = "500"></span>
+                    <span data-image-width="500" data-image-height = "500" className = "span__3"></span>
                         
                             <div className = "inner__text">
-                            <p> adivnms vnsfvndbndfbndfsv  vsvnsnv </p> 
-                            <h5>A Roberts</h5>
-                            <h6>General Manager</h6>
+                                <p> Excellent photos I could use for my portfolio </p> 
+                                <h5>Sam</h5>
+                                <h6>Illustrator, Storyboard Artist</h6>
                             </div>
                     
                         {/* <img src = {require('../img/model1.jpg')}></img> */}
@@ -54,3 +60,9 @@ return (
 }
 
 export default Testimonial
+
+{/* <figcaption>
+                            <blockquote>
+                                <p> Excellent Services </p>
+                            </blockquote>
+                        </figcaption> */}
