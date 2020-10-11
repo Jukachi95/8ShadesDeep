@@ -6,7 +6,9 @@ const AboutContainer = () => {
     return(
      <div>
         <div className = "about__main__container">
-            <section className = "about__main__image"></section>
+            <section className = "about__main__text">
+                <p>A modern and constantly evolving collective</p>
+            </section>
                 {/* <div className = "about__title">
                     <h1 style = {{color: 'black', marginTop: "50px"}}>About 8ShadesDeep</h1>
                 </div>

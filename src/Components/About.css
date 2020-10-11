@@ -2,16 +2,27 @@
     display: flex;
     flex-direction: column; 
     height: 80vh;
-    background: url('../img/8shadeshost.jpg');
-    
+     background: url('../img/8shadeshost.jpg');
+    /* height: 100%; */
+    width: 100%;
+    background-position: 10% 30%;
+    image-rendering: crisp-edges;
+    background-size: cover;
+    position: relative;
 }
 
-.about__main__image{
-   height: 100%;
-   max-width: 100%;
-   background-position: 10% 30%;
-   image-rendering: crisp-edges;
-   background-size: cover;
+.about__main__container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 90%;
+    background: rgba(0,0,0,0.3)   
+}
+
+.about__main__text{
+   color: white;
 }
 
 /* 
