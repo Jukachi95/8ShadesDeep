@@ -11,8 +11,8 @@ return (
                         <span data-image-width="500" data-image-height = "500" className = "span__1"></span>
 
                            <div className = "inner__text">
-                                <p> Great service from the collective </p> 
-                                <h5>Adele</h5>
+                                <h2> Great service from the collective </h2> 
+                                <h4>Adele</h4>
                                 <h6>Dancer, Model</h6>
                             </div>
                         {/* <img src =  {require('../img/model1.jpg')}></img> */}
@@ -27,8 +27,8 @@ return (
                      <span data-image-width="500" data-image-height = "500" className = "span__2"></span>
                             <div className = "inner__text">
                             {/* Blockquote before 'p' */}
-                                <p> Quality Photos</p> 
-                                <h5>Dani</h5>
+                                <h2> Quality Photos</h2> 
+                                <h4>Dani</h4>
                                 <h6>Influencer, Model</h6>
                             </div>
                         {/* <img src = {require('../img/model1.jpg')}></img> */}
@@ -39,8 +39,8 @@ return (
                     <span data-image-width="500" data-image-height = "500" className = "span__3"></span>
                         
                             <div className = "inner__text">
-                                <p> Excellent photos I could use for my portfolio </p> 
-                                <h5>Sam</h5>
+                                <h2> Excellent photos I could use for my portfolio </h2> 
+                                <h4>Sam</h4>
                                 <h6>Illustrator, Storyboard Artist</h6>
                             </div>
                     

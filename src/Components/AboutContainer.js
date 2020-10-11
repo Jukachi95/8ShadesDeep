@@ -6,7 +6,8 @@ const AboutContainer = () => {
     return(
      <div>
         <div className = "about__main__container">
-                <div className = "about__title">
+            <section className = "about__main__image"></section>
+                {/* <div className = "about__title">
                     <h1 style = {{color: 'black', marginTop: "50px"}}>About 8ShadesDeep</h1>
                 </div>
 
@@ -15,7 +16,7 @@ const AboutContainer = () => {
                     <h4>Sledge Tshibangu</h4>
                     <h5>Founder</h5>
                     <p>Director, Advertiser, Photographer, Music Producer</p>
-                </div>
+                </div> */}
         </div> 
 
         
