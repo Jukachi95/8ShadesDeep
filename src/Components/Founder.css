@@ -1,0 +1,13 @@
+.founder__main__container{
+    height: 900px;
+    background-color: red;
+}
+
+.founder__main__container .founder__main__image{
+    height: 400px;
+    background-color: blue;
+}
+
+.founder__main__container .founder__main__image img{
+    height: 100%;
+}
