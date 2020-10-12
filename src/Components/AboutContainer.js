@@ -7,7 +7,9 @@ const AboutContainer = () => {
      <div>
         <div className = "about__main__container">
             <section className = "about__main__text">
-                <p>A modern and constantly evolving collective</p>
+            
+                  <p><i class="quote left icon"></i>A modern and constantly evolving collective,<br></br> where the grass is greener <i class="quote right icon"></i></p>
+             
             </section>
                 {/* <div className = "about__title">
                     <h1 style = {{color: 'black', marginTop: "50px"}}>About 8ShadesDeep</h1>
