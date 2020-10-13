@@ -10,10 +10,11 @@ const Founder = () => {
 
             <div className = "founder__main__text">
                 <blockquote>
-                    <p>The idea behind the collective was to bring a lot
+                    <h4>The idea behind the collective was to bring a lot
                         of ideas from various individuals and bring them all to life
-                    </p>
+                    </h4>
                 </blockquote>
+                <p>  - Sledge Tchibangu</p>
             </div>
        </div>
        

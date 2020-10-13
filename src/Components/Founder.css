@@ -1,13 +1,26 @@
 .founder__main__container{
     height: 900px;
-    background-color: red;
+    /* background-color: #dfe6e9; */
+    background-color: #f1faee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .founder__main__container .founder__main__image{
     height: 400px;
-    background-color: blue;
+    background-color: #a8dadc;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .founder__main__container .founder__main__image img{
     height: 100%;
+}
+
+.founder__main__container .founder__main__text{
+    display: flex;
+    flex: 1;
 }
