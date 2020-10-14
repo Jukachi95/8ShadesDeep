@@ -24,7 +24,8 @@
     height: 305px; */
     display: flex;
     align-items: center;
-    background-color: #e9e3dc;
+    /* background-color: #e9e3dc; */
+    background-color: #f1faee;
     width: 100%;
     padding: 10px 30px;
     margin-top: 20px;
