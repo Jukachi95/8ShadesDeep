@@ -9,6 +9,16 @@
     justify-content: center;
 }
 
+.founder__main__container .founder__icon{
+    display: flex;
+    flex: 0.2;
+    /* background-color: blue; */
+    height: 350px;
+    /* Height was 500px */
+    align-items: flex-start;
+    justify-content: center;
+}
+
 .founder__main__container .founder__main__image{
     height: 400px;
     /* background-color: #a8dadc; */

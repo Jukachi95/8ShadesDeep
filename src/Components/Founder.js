@@ -8,8 +8,12 @@ const Founder = () => {
                 <img src = {require('../img/sledge_profile.jpg')}></img>
             </div>
 
+                <div className = "founder__icon">
+                <i class="huge quote left icon"></i>
+                </div>
+
             <div className = "founder__main__text">
-                <blockquote>
+             <blockquote>
                     <h4>"The idea behind the collective was to bring a lot
                         of ideas from various individuals and bring them all to life. We're
                         always looking for ways to collaborate with the community and those that
