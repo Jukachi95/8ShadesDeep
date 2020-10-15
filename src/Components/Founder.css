@@ -30,6 +30,7 @@
 
 .founder__main__container .founder__main__image img{
     height: 100%;
+    filter: grayscale(80%);
 }
 
 .founder__main__container .founder__main__text{

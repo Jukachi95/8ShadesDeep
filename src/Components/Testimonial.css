@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 .testimonial__container{
     /* width: 1000px; */
     display: flex;
@@ -25,7 +28,8 @@
     display: flex;
     align-items: center;
     /* background-color: #e9e3dc; */
-    background-color: #f1faee;
+    background-color: #f1faee
+    ;
     width: 100%;
     padding: 10px 30px;
     margin-top: 20px;
@@ -41,6 +45,11 @@
 .testimonial__card div .inner__text h2{
     font-weight: 100;
     margin-bottom: -14px;
+    font-family: 'Cardo';
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-size: 1.18em;
+    color: #34495e;
  }
 
 .testimonial__card div .inner__text h5{
@@ -49,6 +58,10 @@
 
 .testimonial__card div .inner__text h6{
     margin-top: 0px;
+    font-family: 'Playfair Display';
+    font-size: 0.91em;
+    font-style: italic;
+    /* letter-spacing: 1.2px; */
 }
 
 .testimonial__card span{
@@ -62,18 +75,21 @@
     background: url('../img/model1.jpg');
     background-position: 50% 50%;
     background-size: 150px 195px;
+    filter: grayscale(80%);
 }
 
 .testimonial__card .span__2{
     background: url('../img/smiling__1.jpg');
     background-position: 50% 50%;
     background-size: 150px 195px;
+    filter: grayscale(50%);
 }
 
 .testimonial__card .span__3{
     background: url('../img/smiling__2.jpg');
     background-position: 50% -1%;
     background-size: 190px 185px;
+    filter: grayscale(50%);
 }
 
 

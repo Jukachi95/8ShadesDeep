@@ -5,13 +5,13 @@ import './CardContainer.css'
 const CardContainer = () =>{
     return(
         <div className = 'cards'>
-          <h1>Take a look at our projects</h1>
+          <h1>What we specialize in</h1>
           <div className = "cards__container">
                 <div className = "cards__wrapper">
                    <ul className = "cards__items">
                         <Card
                         src = {require('../img/8shadesafro.jpg')}
-                        text = "High Quality Photography for our collaborations" 
+                        text = "Quality Photography for any and every event " 
                         label = 'Quality Photography'
                         />
                         {/* <Card
@@ -22,8 +22,8 @@ const CardContainer = () =>{
 
                         <Card
                         src = {require('../img/8shadesbun.jpg')}
-                        text = "High Quality Videography for our collaborations"
-                        label = 'Creative Professionals'
+                        text = "Exceptional and Professional Video Editing "
+                        label = 'High Quality Productions'
                         />
 
                       
@@ -31,9 +31,9 @@ const CardContainer = () =>{
 
                    <ul className = "cards__items">
                         <Card
-                        src = {require('../img/8shadesafro.jpg')}
-                        text = "Quality Photography"
-                        label = 'Photography'
+                        src = {require('../img/8shadesboard.jpg')}
+                        text = "Innovative Visionaries"
+                        label = 'Innovation & Progress'
                         />
                         {/* <Card
                         src = {require('../img/8shadesafro.jpg')}
@@ -42,16 +42,16 @@ const CardContainer = () =>{
                         /> */}
 
                         <Card
-                        src = {require('../img/8shadesbun.jpg')}
-                        text = "Creative Professionals"
-                        label = 'Creative Direction'
+                        src = {require('../img/8shadesparkour1.jpg')}
+                        text = "Meaningful Collaborations"
+                        label = 'Embracing Progress'
                         />
 
 
                         <Card
-                        src = {require('../img/8shadesbun.jpg')}
+                        src = {require('../img/8shadesdancegroup.jpg')}
                         text = "Creative Professionals"
-                        label = 'Creative Direction'
+                        label = 'Purpose'
                         />
                 
                    </ul> 

@@ -13,7 +13,7 @@ return (
                            <div className = "inner__text">
                                 <h2> Great service from the collective </h2> 
                                 <h4>Adele</h4>
-                                <h6>Dancer, Model</h6>
+                                <h6>Model</h6>
                             </div>
                         {/* <img src =  {require('../img/model1.jpg')}></img> */}
                         {/* <figcaption>
@@ -29,7 +29,7 @@ return (
                             {/* Blockquote before 'p' */}
                                 <h2> Quality Photos</h2> 
                                 <h4>Dani</h4>
-                                <h6>Influencer, Model</h6>
+                                <h6>Influencer</h6>
                             </div>
                         {/* <img src = {require('../img/model1.jpg')}></img> */}
                         
