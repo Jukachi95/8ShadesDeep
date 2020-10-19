@@ -5,8 +5,12 @@
     color: #fff;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 100px;
-    padding: 50px
+    margin-top: 200px;
+    padding: 50px;
+    /* position: fixed; */
+    left:0;
+    bottom:0;
+    height: 100%;
 }
 
 .footer__container .footer__left,

@@ -20,9 +20,20 @@ const Catalog = () =>{
             contactNumber = {'0121 643 8989'}
             />
 
+            <CollabContainer title = {'The Joint'} 
+            image = {require('../img/TheJoint4.jpg')} 
+            className = {'collab__container__reverse'}
+            compDescription = {'Exotic Sweets,Candy & Cereals'}
+            firstAddress = {'Unit 6 Premier House'}
+            secondAddress = {'Smethwick'}
+            openingTimesTitle = {'Opening Times:'}
+            openingTime = {'12:00 - 20:00'}
+            contactTitle = {'Contact Number:'}
+            contactNumber = {'0121 448 2084'}
+            />
             
-            <CollabContainer title = {'The JOINT'} 
-            image= {require('../img/TheJoint.jpg')} 
+            {/* <CollabContainer title = {'The JOINT'} 
+            image= {require('../img/TheJoint4.jpg')} 
             className = {'collab__container__reverse'}
             compDescription = {'Exotic Candy & Snacks Store'}
             firstAddress = {'Unit 6 Premier House'}
@@ -31,7 +42,8 @@ const Catalog = () =>{
             openingTime = {'12:00 - 20:00'}
             contactTitle = {'Contact Number:'}
             contactNumber = {'0121 448 2084'}
-            />
+            /> */}
+            
         </div>
     )
 }

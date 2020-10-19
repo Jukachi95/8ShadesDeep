@@ -2,15 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&display=swap');
 
+/* Parent element */
+/* Set the footer to fixed */
+.catalog__container{
+    min-height: 100vh;
+    /* background-color: red; */
+}
+
 .catalog__title{
     color: black;
     font-family: 'Cormorant'
 }
 
+/* When it reaches a viewpoint, set height to 100% */
 .collab__container{
     display: flex;
+    flex-wrap: wrap;
     height: 500px;
-    width: 1100px;
+    max-width: 1100px;
     /* background-color: black; */
     margin: 0 auto;
     margin-top: 60px;
@@ -19,11 +28,12 @@
 .collab__container__reverse{
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
     height: 500px;
-    width: 1100px;
+    max-width: 1100px;
+    margin-bottom: 800px;
     /* background-color: black; */
     margin: 0 auto;
-    
 }
 
 .collab__container,
@@ -36,7 +46,9 @@
    max-width: 100%;
    max-height: 100%;
    flex: 1;
+   display: flex;
 }
+
 
 .collab__container h1{
     font-family: 'Alegreya';
@@ -45,6 +57,7 @@
 
 .collab__container__reverse h1{
     font-family: 'Crimson Text';
+    font-weight: 900;
 }
 
 .collab__container .body__left,
@@ -56,5 +69,39 @@
  }
  
 
+ /* Media Queries */
  
- 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+         .collab__container img,
+        .collab__container__reverse img{
+        display: none;
+        }
+
+    }
+
+    @media only screen  and (max-width : 505px) {
+        /* Was 500px */
+        .collab__container img,
+        .collab__container__reverse img{
+        max-height: 100%;
+        }
+
+
+        .collab__container .body__left *,
+        .collab__container__reverse .body__left *{
+                margin-top: 2px;
+                margin-bottom: 0;
+            }
+            
+        }
+        
+
+        @media only screen  and (min-width : 506px) and (max-width: 758px) {
+        
+            .collab__container img,
+            .collab__container__reverse img{
+            max-height: 70%;
+            }
+            
+            
+            }

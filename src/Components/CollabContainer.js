@@ -4,7 +4,7 @@ import './Collab.css'
 const CollabContainer = (props) => {
 
     return(
-       <div>
+       <div className = "catalog__container">
         <div className = {props.className}>
             <div className = "body__left">
                 <h1>{props.title}</h1> 
@@ -27,6 +27,7 @@ const CollabContainer = (props) => {
 
             <img src = {props.image}/>
         </div>
+        
         </div>  
     )
 
