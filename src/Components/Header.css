@@ -4,6 +4,10 @@
     justify-content: center;
     align-items:center;
     background: url('../img/8ShadesRedBlack.jpg');
+}
+
+.navbar__main .navbar__main__inner{
+    display: flex;
     
 }
 
@@ -11,5 +15,9 @@
     text-decoration: none;
     list-style-type: none;
     text-transform: uppercase;
-    color: white;
+    padding: 1em 1em;
+}
+
+.navbar__main .navbar__main__inner .item a{
+        color: #fff;
 }
