@@ -1,0 +1,15 @@
+.navbar__main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    background: url('../img/8ShadesRedBlack.jpg');
+    
+}
+
+.navbar__main .navbar__main__inner .item{
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: white;
+}

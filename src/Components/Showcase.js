@@ -4,9 +4,11 @@ import './Showcase.css'
 
  const Showcase = (props) => {
      return (
-         <div className = 'mainShowcase'>    
-            <h1>8SHADESDEEP</h1>
-            <p>Art, Photography and Directing</p>
+         <div className = 'mainShowcase'>  
+                <div className = "mainShowcase__inner">
+                    <h1>8SHADESDEEP</h1>
+                    <p>Art, Photography and Directing</p>
+                </div>    
          </div>
      )
  }
